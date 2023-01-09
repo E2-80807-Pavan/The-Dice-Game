@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" charset="utf-8"></script>
+  </head>
+
+
+  <body>
+    <div id="screen">
+
+        <h3>🎲The Dice Game</h3>
+    <div class="container">
+        <h1 id="heading">Welcome! In The Dice Game</h1>
+        <h2 id="heading2">Both Of You Only Get 10 Chance To Spin The Dice!</h2>
+        <div class="dice">
+          <p id="one">Player 1</p>
+          <img id="img1" src="images\dice6.png" alt="">
+        </div>
+        <div class="dice">
+          <p id="two">Player 2</p>
+          <img id="img2" src="images\dice6.png" alt="">
+        </div>
+      </div>
+      <footer>
+        <button class="btnn" id="bttn" type="button" name="button" onclick="rollDice();">🎲 Click Here To Roll</button>
+        <button id="bttn-score" type="button" name="button" onclick="viewScore();">View Score</button>
+      </footer>
+</div>
+
+<div class="scoreboard" id="scoreboard">
+  <h1 id="viewScoreheading">Congratulations!</h1>
+  <h1 id="viewScoreheading1">Won The Game</h1>
+
+    <table id="tables" border="1" cellpadding = 20px>
+      <tr>
+        <th id="tableheading1">playerone</th>
+        <th id="tableheading2">playertwo</th>
+        <th id="tableheading2">Draws</th>
+      </tr>
+
+      <tr>
+        <td id="colume1">score</td>
+        <td id="colume2">score</td>
+        <td id="colume3">score</td>
+      </tr>
+    </table>
+    <div class="lott">
+      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_qmfy1iow.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    </div>
+
+    <a class="btn btn-primary disabled" href="file:///C:/Users/Dell/Desktop/FSWD/Practice/dice%20game%20Pavan/index.html" role="button" aria-disabled="true">Restart</a>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8">
+
+</script>
+  </body>
+</html>
+
+<!-- <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_qmfy1iow.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player> -->
